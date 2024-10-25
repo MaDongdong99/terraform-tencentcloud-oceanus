@@ -83,5 +83,7 @@ No modules.
 
 | Name | Description |
 |------|-------------|
+| <a name="output_lv1_folders"></a> [lv1\_folders](#output\_lv1\_folders) | n/a |
+| <a name="output_lv2_folders"></a> [lv2\_folders](#output\_lv2\_folders) | n/a |
 | <a name="output_workspace_id"></a> [workspace\_id](#output\_workspace\_id) | n/a |
 | <a name="output_workspace_name"></a> [workspace\_name](#output\_workspace\_name) | n/a |

@@ -56,3 +56,9 @@ resource "tencentcloud_oceanus_folder" "lv2_folders" {
   folder_type   = each.value.folder_type
   work_space_id = local.workspace_id
 }
+
+locals {
+  lv2_folder_ids = {
+    for k, f in tencentcloud_oceanus_folder.lv2_folders: k => split("#", f.id)[1]
+  }
+}
